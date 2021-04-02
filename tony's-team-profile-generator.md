@@ -20,7 +20,8 @@
   # Installation:
     Once opening the application make sure to run npm i in the terminal. Also make sure your version of Node.js is up to date. Once you are done with that, just type 'node index.js' into the terminal. You will then be prompted to answer a series of questions. Once you are finished with the prompts, look in the output folder to find your HTML file. 
   # Usage:
- ![GitHub Logo](https://github.com/Abarrera123/My-Team-Profile-Generator/blob/main/example/profile-generatpr-html-screenshot.PNG)
+  ## Video link on how to use: https://drive.google.com/file/d/13EgL6i4V0swCKohdEf7k9Xmkv9heImUr/view
+ ![HTML Screenshot](example\profile-generatpr-html-screenshot.PNG)
   # Credits:
   ## Contributors: Antonio Barrera 
   ## Github Username: Abarrera123

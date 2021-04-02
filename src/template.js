@@ -23,9 +23,13 @@ const htmlHeader = `
             </div>
     </nav>`;
     //write the file write when the function is called
-    fs.writeFile('./output/team.html', htmlHeader, (err)=>
-    err ? console.log(err) : console.log() )
-}
+    fs.writeFile('./output/team.html', htmlHeader, (err)=>{if (err) {
+      console.error(err)
+      return
+    }})
+  };
+    
+
 
 function htmlClass(employee){
     return new Promise(function(resolve, reject){
@@ -117,4 +121,4 @@ function bottomHTML() {
 }
     
     
-module.exports = {htmlHeader, htmlClass, bottomHTML};
+module.exports = {htmlHeader, htmlClass, bottomHTML}
